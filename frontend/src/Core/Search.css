@@ -1,0 +1,81 @@
+.buttondiv {
+  background-color: gray;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.buttonsearch {
+  background-color: gray;
+  border: none;
+  cursor: pointer;
+  color: wheat;
+  transition: all 1s;
+}
+.buttonsearch:hover,
+.buttondiv:hover {
+  opacity: 0.8;
+  transition: all 1s;
+}
+
+.searchin, .opcoes {
+  background-color: #009688!important;
+  border-radius: 18px !important;
+  color: #ff9900 !important;
+  padding-left: 20px !important;
+cursor: pointer;
+margin: 0px 10px !important;
+border: 1px solid black;
+margin-left: 40px !important;
+height: 48px;
+}
+
+.searchin:hover {
+  background-color: #009688!important;
+  color: black !important;
+}
+
+::placeholder {
+  color: #ff9900 !important;
+  font-size: 23px !important;
+  padding-left: 20px !important;
+}
+
+
+.logo-lado {
+  display: flex;
+  flex-direction: row;
+}
+
+.lupa{
+  margin-left: -120px !important;
+  z-index:99;
+  
+  background-color: #009688!important;
+  height: 30px;
+}
+
+.lago {
+  margin-left: 100px !important;
+}
+
+.form-search {
+  font-size: 20px !important;
+}
+
+.categoriaaa {
+  background-color: #009688!important;
+  color: #ff9900 !important;
+  margin-left: 20px !important;
+  border: 1px solid black !important;
+
+}
+
+.buttonsearch {
+  background: transparent !important;
+  width: 25px;
+  height: 25px;
+}

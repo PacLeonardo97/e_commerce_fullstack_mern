@@ -1,0 +1,26 @@
+const express = require("express");
+const router = express.Router();
+
+//import controll
+
+const { requireSignin, isAuth, isAdmin } = require("../controllers/auth");
+const { userById,read, update,purchaseHistory } = require("../controllers/user");
+const {userSignupValidator} = require('../validator')
+
+
+router.get("/secret/:userId", requireSignin, isAuth, isAdmin, (req, res) => {
+  res.json({
+    user: req.profile,
+  });
+});
+
+router.get('/user/:userId', requireSignin, isAuth, read)
+router.put('/user/:userId', userSignupValidator, requireSignin, isAuth, update)
+router.get('/orders/by/user/:userId', requireSignin, isAuth, purchaseHistory)
+//listar todos os pedidos feitos pelo usuario (historico de pedidos prprio)
+
+
+
+router.param("userId", userById);
+
+module.exports = router;

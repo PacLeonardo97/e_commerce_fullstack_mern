@@ -1,0 +1,24 @@
+.Added {
+    background-color: rgb(238, 238, 106);
+    height: 90px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.fa-check-circle-o{
+    color: rgb(13, 236, 13);
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.icone-redes {
+    font-size: 23px;
+    padding-top: 5px;
+}

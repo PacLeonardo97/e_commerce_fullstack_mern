@@ -1,0 +1,182 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(207, 221, 226);
+  }
+
+  .telefone {
+    max-width: 600px !important;
+    width: 100vw !important;
+    width: 100vw;
+    font-size: 10px !important;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around !important;
+  }
+
+  .telefone .telefone-div {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    width: 120px;
+    margin-left: 10px;
+  }
+  .telefone-contato {
+    align-items: center;
+    font-size: 13px !important;
+    justify-content: center;
+    width: 120px;
+    padding: 0 !important;
+
+    content: "(19)98138888";
+  }
+  .redes {
+    width: 200px;
+    height: 50px;
+    margin-left: -10px;
+  }
+  .mobile-button-rede {
+    width: 50px;
+
+    height: 50px;
+  }
+
+  .img-logo {
+    margin-left: -20px;
+    z-index: 10 !important;
+  }
+  .signout {
+      z-index: 99 !important;
+      width: 100px;
+
+  }
+  .nav_signout {
+      z-index: 20 !important;
+  }
+
+  .lago {
+    width: 320px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto;
+    justify-content: center !important;
+    margin-left: 0 !important;
+    align-items: center !important;
+  }
+  .form-search {
+    display: flex;
+    flex-direction: column !important;
+    margin-left: 0 !important;
+  }
+  .search1 {
+      display: flex;
+      width: 320px !important;
+      flex-direction: column;
+      margin-left: -20px !important;
+  }
+  .search2 {
+      display: flex;
+      margin-bottom: 12px;
+      flex-direction: column;
+      width: 320px;
+      margin-left: 20px !important;
+      
+    }
+    .search3 {
+        margin-left: 20px !important;
+        width: 280px;
+    }
+    .searchin {
+        margin-left: 40px !important;
+        width: 280px !important;
+    }
+    .categoriaaa {
+        margin-left: 20px !important;
+        margin-bottom: 12px;
+
+  }
+  .opcao1 {
+      padding-left: 10px !important;
+      margin-left: 10px !important;
+  }
+
+  .lupa {
+      margin-top: -50px;
+      margin-left: 250px !important;
+      width: 0;
+  }
+
+  .h2-maisvendidos {
+      border: 2px solid gray;
+      text-align: center;
+      padding: 10px
+      
+  }
+  .menu-mobilex li a {
+      font-size: 16px !important;
+  }
+
+  .menu-mobilex {
+      width: 300px;
+  }
+  .vendidosMais {
+      display: flex;
+      flex-direction: column;
+  }
+  .produtos_loja {
+      width: 300px !important;
+  }
+  .produtos_loja card {
+      width: 200px; 
+      border: 1px solid black;
+  }
+  .produto_card {
+      width: 280px;
+      margin-left: 20px;
+  }
+
+  .user_dashboard {
+      display: flex;
+      flex-direction: column;
+      width: 300px !important;
+  }
+  .linkings {
+      width: 280px;
+      margin-bottom: 20px;
+  }
+
+  .categorias_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .produtos_shop_row {
+    display: flex;
+    flex-direction: column;
+  }
+  .categorias_box_1 {
+    display: flex;
+    flex-direction: column !important;
+    font-size: 35px !important;
+  }
+
+  .categorias_box_1 input {
+    width: 40px;
+    height: 40px;
+    
+  }
+  .categorias_box {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-4 h4 {
+    width: 280px;
+    border-bottom: 2px solid white;
+    margin: 10px 10px;
+    padding: 10px;
+  }
+}
+

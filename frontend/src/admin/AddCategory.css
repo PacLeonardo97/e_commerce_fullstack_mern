@@ -1,0 +1,13 @@
+.text-danger {
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.322);
+    padding: 5px;
+    margin-bottom: 20px;
+    
+
+
+}
+
+.alert-info {
+    border-radius: 12px;
+}
