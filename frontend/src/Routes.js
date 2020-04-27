@@ -18,7 +18,7 @@ import UpdateCategory from "./admin/UpdateCategory";
 import Orders from "./admin/Order";
 import ManageProducts from "./admin/ManageProducts";
 import ManageCategory from "./admin/ManageCategory";
-
+import TodoList from './todolist'
 
 const Routes = () => (
   <BrowserRouter>
@@ -28,6 +28,7 @@ const Routes = () => (
       <Route path="/signup" exact component={Signup} />
       <Route path="/shop" exact component={Shop} />
       <Route path="/cart" exact component={Cart} />
+      <Route path="/todolist" exact component={TodoList} />
       <Route path="/product/:productId" exact component={Product} />
       <PrivateRoute path="/user/dashboard" exact component={Dashboard} />
       <PrivateRoute path="/profile/:userId" exact component={Profile} />
